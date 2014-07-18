@@ -11,7 +11,7 @@
 
 #define kAnArray @[@"Moscow", @"New York",  @"Paris", @"Berlin", @"Ankara"]
 
-@interface APViewController ()
+@interface APViewController () <UIAPPickerDelegate>
 
 @property (strong, nonatomic) UIAPPicker *apPicker;
 @property (strong, nonatomic) IBOutlet UILabel *itemLabel;
