@@ -27,7 +27,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+@protocol UIAPPickerDelegate;
 
 @interface UIAPPicker : NSObject<UIPickerViewDataSource, UIPickerViewDelegate>
 
