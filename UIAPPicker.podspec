@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "UIAPPicker"
   
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   
   s.summary      = "show animated UIPicker for selected view"
   
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "andrei_aka_proff" => "and.proff@me.com" }
 
-  s.platform     = :ios, "6.1"
+  s.platform     = :ios, "6.0"
 
   s.source       = { :git => "https://github.com/andproff/UIAPPicker.git", :tag => s.version.to_s }
 

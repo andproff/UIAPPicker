@@ -31,6 +31,13 @@
 
 @interface UIAPPicker : NSObject<UIPickerViewDataSource, UIPickerViewDelegate>
 
+@property (nonatomic, assign) id<UIAPPickerDelegate> delegate;
+@property (nonatomic, strong) UIToolbar *toolbar;
+@property (nonatomic, strong) UIView *containerView, *pickerView, *baseView, *shadowView;
+@property (nonatomic, strong) UIPickerView *picker;
+@property (nonatomic, strong) NSArray *pickerItems;
+@property (nonatomic, strong) id selectedPickerItem;
+
 + (instancetype)pickerForView:(UIView *)anView delegate:(id)anDelegate;
 - (void)show:(NSArray *)anItems withSelectedRow:(NSInteger)selected;
 
