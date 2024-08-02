@@ -39,4 +39,4 @@ pod "UIAPPicker"
 ```
 
 ## License
-UIAPPicker is available under the MIT license. See the LICENSE file for more info.
+UIAPPicker is available under the [MIT](https://github.com/andproff/UIAPPicker#MIT-1-ov-file) license. See the LICENSE file for more info.
